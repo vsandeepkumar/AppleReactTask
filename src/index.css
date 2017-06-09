@@ -1,0 +1,30 @@
+body {
+  color:#ffffff;
+  background-color:#000000;
+  padding: 0;
+  font-family: sans-serif;
+}
+.lbheader{
+  font-weight: bold;
+
+}
+.listTile{
+  display: inline-block;
+  margin-left:3px;
+}
+.btns{
+  display: none;
+  width: 100%;
+  color:#0000ff;
+}
+.listTile:hover .btns{
+  display: block;
+}
+titles{
+  position: fixed;
+  bottom: 0;
+}
+.titles label{
+  margin-left: 25px;
+  font-weight: bold;
+}
